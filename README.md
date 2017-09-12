@@ -2,7 +2,7 @@
 简化Java发送邮件的功能
 
 #使用方法
-******************************
+```
 new MailBuilder()
             .setServerHost("smtp.qq.com")// 设置服务器主机
             .setServerPort("465") // 设置服务器端口
@@ -16,7 +16,7 @@ new MailBuilder()
             .setFileList(null) // 设置附件
             .build(); // 发送
       }
-******************************
+```
 
 默认运行在主线程中。
 文章地址(http://www.jianshu.com/p/043dd54fb54b)
